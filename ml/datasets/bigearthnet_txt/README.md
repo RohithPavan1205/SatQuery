@@ -1,9 +1,10 @@
-# BigEarthNet.txt Dataset Pipeline
+# BigEarthNet.txt
 
-This directory is reserved for the implementation of the BigEarthNet.txt dataset pipeline.
+This directory is strictly reserved for:
+- BigEarthNet.txt metadata
+- Local dataset configuration
+- Dataset-specific preprocessing notes
+- Dataloader-related metadata
 
-A dataloader and validation workflow will be added here next.
-
-**Important Note for Contributors:**
-- Do NOT download the dataset directly into this repository.
-- Do NOT commit dataset files or sample data to Git.
+**Important:**
+Do not place actual dataset imagery files or large raw text annotation files here. The actual BigEarthNet imagery is intentionally kept outside Git and will be accessed through a local or external dataset path.
